@@ -1,6 +1,6 @@
-package com.digitalinnovation.labdesignpatternsspring.repository;
+package com.digitalinnovation.designpatterns.repository;
 
-import com.digitalinnovation.labdesignpatternsspring.model.Endereco;
+import com.digitalinnovation.designpatterns.model.Cliente;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -9,8 +9,7 @@ import org.springframework.stereotype.Repository;
  * É uma interface strategy pattern, onde ela me obriga a seguir uma estratégia de implementação
  *
  * @author nirlleycosta
- * */
-
+ */
 @Repository
-public interface EnderecoRepository extends CrudRepository<Endereco, String> {
+public interface ClienteRepository extends CrudRepository<Cliente, Long> {
 }

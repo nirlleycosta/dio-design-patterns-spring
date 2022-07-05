@@ -1,4 +1,4 @@
-package com.digitalinnovation.labdesignpatternsspring.model;
+package com.digitalinnovation.designpatterns.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

@@ -1,7 +1,6 @@
-package com.digitalinnovation.labdesignpatternsspring.service;
+package com.digitalinnovation.designpatterns.service;
 
-import com.digitalinnovation.labdesignpatternsspring.model.Cliente;
-import org.springframework.context.annotation.Bean;
+import com.digitalinnovation.designpatterns.model.Cliente;
 
 /**
  * Interface que define o padrão <b>Strategy</b> no domínio de cliente.
@@ -9,7 +8,7 @@ import org.springframework.context.annotation.Bean;
  * interface.
  *
  * @author nirlleycosta
- * */
+ */
 public interface ClienteService {
 
     Iterable<Cliente> buscarTodos();
